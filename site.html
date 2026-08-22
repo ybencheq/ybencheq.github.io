@@ -7175,6 +7175,14 @@ function myMap() {
   AmalfiCoast = new google.maps.LatLng(40.6334017, 14.601682);
   Rome = new google.maps.LatLng(41.9102411,12.3955706);
 
+  spain = new google.maps.LatLng(37.3753422,-6.0374593);
+  jordan = new google.maps.LatLng(31.8356541,35.7828264);
+  netherlands = new google.maps.LatLng(52.354637,4.8215613);
+  hungary = new google.maps.LatLng(47.4811839,19.0479037);
+  maldives = new google.maps.LatLng(3.1088005,70.5998743);
+  slovenia = new google.maps.LatLng(46.4821759,13.8349409);
+  edinburgh = new google.maps.LatLng(55.9412015,-3.2465379);
+
 
   var mapOptions= {
     center:UMD,
@@ -7333,6 +7341,42 @@ function myMap() {
     position: Rome,
   });
 
+  var Edinburgh_marker = new google.maps.Marker({
+    position: edinburgh,
+    title: 'University of Maryland',
+  });
+
+  var spain_marker = new google.maps.Marker({
+    position: spain,
+    title: 'University of Maryland',
+  });
+  
+  var jordan_marker = new google.maps.Marker({
+    position: jordan,
+    title: 'University of Maryland',
+  });
+
+  var maldives_marker = new google.maps.Marker({
+    position: maldives,
+    title: 'University of Maryland',
+  });
+
+  var hungary_marker = new google.maps.Marker({
+    position: hungary,
+    title: 'University of Maryland',
+  });
+
+  var slovenia_marker = new google.maps.Marker({
+    position: slovenia,
+    title: 'University of Maryland',
+  });
+
+  var netherlands_marker = new google.maps.Marker({
+    position: netherlands,
+    title: 'University of Maryland',
+  });
+  
+
 
   UMDmarker.setMap(map);
   NYmarker.setMap(map);
@@ -7388,6 +7432,15 @@ function myMap() {
 
   AmalfiCoast_Marker.setMap(map);
   Rome_Marker.setMap(map);
+
+  Edinburgh_marker.setMap(map);
+  spain_marker.setMap(map);
+  slovenia_marker.setMap(map);
+  hungary_marker.setMap(map);
+  netherlands_marker.setMap(map);
+  maldives_marker.setMap(map);
+  jordan_marker.setMap(map);
+  
 
 }
 
